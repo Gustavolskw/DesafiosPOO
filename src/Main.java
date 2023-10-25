@@ -19,7 +19,7 @@ public class Main {
 			System.out.println(showOptions());
 			option = escolha.nextInt();
 			if (option >= 5) {
-				System.out.println("***Valor inválido!*** \n" + showOptions());
+				System.out.println("*** Valor inválido! *** \n" + showOptions());
 				option = escolha.nextInt();
 			}
 		}while (option != 4) ;
