@@ -2,12 +2,12 @@
 import java.util.Scanner;
 
 import static BasePath.DataBase.*;
-import static ReadPath.ReadMethods.*;
+
 
 public class Main {
 	public static void main(String[] args) {
-		int option = 0;
-		boolean numValido = true;
+		int option;
+		//boolean numValido = true;
 		Scanner escolha = new Scanner(System.in);
 
 		System.out.println(separador() + "\n");
