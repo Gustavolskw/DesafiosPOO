@@ -1,0 +1,252 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/.gitignore	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/.idea/.gitignore	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/.idea/compiler.xml	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="JavaDeseAlura" options="--add-exports java.desktop/com.sun.beans.introspect=ALL-UNNAMED" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/.idea/misc.xml	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,5 @@
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/.idea/modules.xml	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/JavaDeseAlura.iml" filepath="$PROJECT_DIR$/JavaDeseAlura.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/.idea/vcs.xml	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: JavaDeseAlura.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/JavaDeseAlura.iml b/JavaDeseAlura.iml
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/JavaDeseAlura.iml	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/BasePath/DataBase.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/BasePath/DataBase.java b/src/BasePath/DataBase.java
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/src/BasePath/DataBase.java	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,31 @@
++package BasePath;
++
++public class DataBase {
++    public static String dataBase() {
++
++        String nome = "Joana Santos";
++        String contaBancaria = "Corrente";
++
++       return("Nome do Cliente - "+nome+"\nTipo de Conta - "+contaBancaria);
++    }
++    public static int  saldo(){
++
++        return 2500;
++    }
++    public static String separador(){
++        return "****************************";
++    }
++    public static String showOptions(){
++
++        return """
++                1 - Consultar Saldo
++                2 - Transferir Saldo
++                3 - Receber Valor
++                4 - Sair
++                """;
++    }
++
++
++
++
++}
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+new file mode 100644
+--- /dev/null	(revision c47168e1d5a88cb09cc5b04b5acca8135340ac08)
++++ b/src/Main.java	(revision c47168e1d5a88cb09cc5b04b5acca8135340ac08)
+@@ -0,0 +1,36 @@
++
++import java.util.Scanner;
++
++import static BasePath.DataBase.*;
++
++
++public class Main {
++	public static void main(String[] args) {
++		int option;
++		//boolean numValido = true;
++		Scanner escolha = new Scanner(System.in);
++
++		System.out.println(separador() + "\n");
++		System.out.println(dataBase());
++		System.out.println(saldo());
++		System.out.println("\n" + separador() + "\n");
++
++		do {
++			System.out.println(showOptions());
++			option = escolha.nextInt();
++			if (option >= 5) {
++				System.out.println("*** Valor inválido! *** \n" + showOptions());
++				option = escolha.nextInt();
++			}
++		}while (option != 4) ;
++
++
++
++
++
++
++
++
++
++	}
++}
+\ No newline at end of file
+Index: src/ReadPath/ReadMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ReadPath/ReadMethods.java b/src/ReadPath/ReadMethods.java
+new file mode 100644
+--- /dev/null	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
++++ b/src/ReadPath/ReadMethods.java	(revision 3fc0edd8dad2481770bc3572668897a5a7dc21a3)
+@@ -0,0 +1,8 @@
++package ReadPath;
++
++import java.util.Scanner;
++
++public class ReadMethods {
++
++
++}

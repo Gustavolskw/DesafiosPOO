@@ -8,10 +8,6 @@ public class DataBase {
 
        return("Nome do Cliente - "+nome+"\nTipo de Conta - "+contaBancaria);
     }
-    public static int  saldo(){
-
-        return 2500;
-    }
     public static String separador(){
         return "****************************";
     }
